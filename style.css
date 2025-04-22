@@ -1,57 +1,98 @@
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2.5em;
-}
-
-section {
-  padding: 20px;
-  margin: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #333;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 5px 0;
-}
-
-a {
-  text-decoration: none;
-  color: #0077b6;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  margin-top: 20px;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #333;
+  }
+  
+  header {
+    background-color: #d89dd7; /* Pink header background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  .profile-image {
+    width: 120px; /* Adjust the size */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #d89dd7; /* Pink color for section headings */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d89dd7; /* Pink links */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d89dd7; /* Pink footer background */
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  /* Styling for Projects Section */
+  #projects {
+    background-color: #f9f9f9;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .project ul {
+    margin-top: 10px;
+  }
+  
+  .project li {
+    font-size: 1em;
+    color: #555;
+  }
+  
